@@ -1,0 +1,48 @@
+h1{
+    color: rgb(255, 0, 76);
+}
+body{
+    background-color: rgb(3, 24, 6);
+}
+*{
+    color: rgb(231, 109, 231)
+    
+}
+*{
+    margin: 20;
+    padding: 40;
+    box-sizing: 50;
+}
+.titulo-principal {
+    color: green
+}
+    
+#id-del-titulo{
+        color:aquamarine
+    }
+
+h1{
+    color: #fff;
+    background-color: black;
+    text-transform: uppercase;
+ text-shadow: 0 0 2px #fff;
+ padding: 8px;
+ border: 2px solid red ;
+ text-align: center;
+ text-decoration: underline;
+}
+
+li{
+    list-style: none;
+    color : #fff 
+}
+a{
+    color:#fff
+}
+h1:hover{
+filter: blur(0);
+transform: translateY(-6px);
+transition:  all 0.3s;
+color: aqua;
+text-shadow: 0 0 4px 
+}
