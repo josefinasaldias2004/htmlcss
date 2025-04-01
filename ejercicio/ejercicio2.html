@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .box {
+            display: inline-block;
+            margin: 10px;
+            width: 300px;
+            border: 5px solid yellow;
+            color: black;
+            overflow-y: scroll;
+            height: 410px;
+        }
+
+        .img {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            aspect-ratio: 1/1;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <nav>
+            <details>
+                <summary>menu</summary>
+
+                <ul>
+                    <li><a href="#inicio">inicio</a></li>
+                    <li><a href="#productos">productos</a></li>
+                    <li><a href="#precio">precio</a></li>
+
+                </ul>
+            </details>
+        </nav>
+
+    </section>
+    <section id="#productos">
+        <div class="box">
+            <div class="img">
+                <img src="./aspiradora.jfif" alt="imagen de una aspiradora amarilla">
+            </div>
+            <ul>
+                <li> Nombre: aspiradora</li>
+                <li>Descripción: excelente limpiando y amigable con el medio ambiente.</li>
+                <li>Precio: $550</li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="img">
+                <img src="./careta.jfif" alt="imagen de una careta para soldar">
+            </div>
+            <ul>
+                <li>Nombre: Careta soldadora</li>
+                <li>Descripción: protege bien.</li>
+                <li>Precio: $350</li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="img">
+                <img src="./laptop.jfif" alt="imagen de una laptop gamer">
+            </div>
+            <ul>
+                <li> Nombre: Laptop ROG strix</li>
+                <li>Descripción: Ideal para jugar juegos. icore7, 16GBram.</li>
+                <li>Precio: $1550</li>
+            </ul>
+        </div>
+    </section>
+    <h2>ingrese sus datos</h2>
+    <section id="#contacto">
+
+        <form action="/" method="post">
+            <div>
+                <label>Nombre:
+                    <input type="text" name="nombre" required>
+                </label>
+            </div>
+            <div>
+                <label>Email:
+
+                    <input type="email" name="email" required>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Mensaje:
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                </label>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</body>
+<footer>
+    Mail: <a href="mailto:gfdgfd@adsda.com">gfdgfd@adsda.com</a>
+
+    &copy; saldias josefina
+</footer>
+
+</html>
