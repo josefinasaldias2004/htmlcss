@@ -1,0 +1,36 @@
+.box {
+  border-radius: 4%;
+  height: 300px;
+
+  width: 600px;
+  background-color: aliceblue;
+  border: 1px solid grey;
+}
+body {
+  background-color: rgba(215, 234, 245, 0.839);
+}
+.cajita {
+}
+.imagen {
+  height: 150px;
+  width: 150px;
+  align-content: center;
+  justify-content: center;
+  grid-direction: row;
+  align-items: center;
+  border: solid 1px gray;
+}
+
+h2 {
+  align-self: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: row;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.banner {
+}
